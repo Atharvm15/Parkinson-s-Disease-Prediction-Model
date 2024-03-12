@@ -31,7 +31,7 @@ In this cell, we import necessary libraries for data manipulation and modeling, 
 - **sklearn.metrics.accuracy_score**: The accuracy_score function from scikit-learn calculates the accuracy of the model predictions by comparing predicted labels with true labels. It is a common metric used to evaluate the performance of classification models and provides a simple measure of model accuracy.
 
 ## Cell 2: Loading of Data
-This line of code reads the diabetes dataset from a CSV file named 'Parkinsson disease.csv' and stores it in a pandas DataFrame named 'loan data'. 
+This line of code reads the diabetes dataset from a CSV file named 'Parkinsson disease.csv' and stores it in a pandas DataFrame named 'parkinsons_data'. 
 
 Pandas' `read_csv()` function is used to read the contents of the CSV file into a DataFrame. This function automatically detects the delimiter used in the file (usually a comma) and parses the data into rows and columns. The resulting DataFrame allows for easy manipulation and analysis of the dataset, making it a popular choice for working with structured data in Python.
 
